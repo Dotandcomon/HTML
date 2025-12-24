@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang = "ru">
+    <head>
+        <title>
+            HTML-SHORT INFORMATION
+        </title>
+    </head>
+    <body>
+
+        <!--HEADER-->
+        <header>
+            <h1>HTML-Short info</h1>
+            <p>Семантика таблицы и формы</p>
+        </header>
+
+        <!--NAVIGATION-->
+        <nav>
+            <ul>
+                <li><a href = "#html">HTML</a></li>
+                <li><a href = "#semantic">Semantic</a></li>
+                <li><a href = "#table">Table</a></li>
+                <li><a href = "#form">Form</a></li>
+            </ul>
+        </nav>
+
+        <!--MAIN-->
+        <main>
+
+            <!--SECTION - HTML-->
+            <section id = "html">
+                <h2>Что такое HTML?</h2>
+                <p><strong>HTML</strong> - язык разметки для создания структуры веб сайта</p>
+            </section>
+            
+            <!--SECTION - SEMANTIC-->
+            <section id="semantic">
+                <h2>Семантические теги</h2>
+                <div class = "info">
+                    <h3>Семантические теги</h3>
+                    <article>
+                        <ul>
+                            <li>header</li>
+                            <li>nav</li>
+                            <li>main</li>
+                            <li>section</li>
+                            <li>article</li>
+                            <li>aside</li>
+                            <li>footer</li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+
+            <!--SECTION - TABLE-->
+            <section id = "table">
+                <h4>HTML-TABLE</h4>
+                <table border = "1">
+                    <thead>
+                        <tr>
+                            <th colspan = "1">Schedule</th>
+                            <th>Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>School</td>
+                            <td>8:00</td>                           
+                        </tr>
+                        <tr>
+                            <td rowspan = "1">home</td>
+                            <td>14:00</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan = "2"><b>Done</b></td>
+                        </tr>
+                    </tfoot>
+                </table>
+
+
+            </section>
+
+            <!--SECTION - FORM-->
+
+            <section id = "form">
+
+            <h5>HTML-form</h5>
+
+            <form>
+                <label>
+                    Имя:
+                    <input type="text" name="name">
+                </label>
+                <br><br>
+
+                <label>
+                    Email:
+                    <input type="email" name="email">
+                </label>
+                <br><br>
+
+                <label>
+                    Сообщение:
+                    <textarea name="message"></textarea>
+                </label>
+                <br><br>
+
+                <label>
+                    <input type="checkbox" name="agree">
+                    Я согласен на обработку данных
+                </label>
+                <br><br>
+
+                <button type="submit">Отправить</button>
+                <button type="reset">Очистить</button>
+            </form>
+
+            </section>
+
+            <footer>
+                <p>HTML 2025 info</p>
+            </footer>
+        </main>
+    </body>
+</html>
